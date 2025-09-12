@@ -29,6 +29,89 @@ export type Database = {
         }
         Relationships: []
       }
+      tests: {
+        Row: {
+          class: string
+          correct_answers: Json
+          created_at: string
+          id: string
+          questions: Json
+          score: number | null
+          student_answers: Json | null
+          subject: string
+          topic: string
+          total_questions: number
+          user_id: string
+        }
+        Insert: {
+          class: string
+          correct_answers: Json
+          created_at?: string
+          id?: string
+          questions: Json
+          score?: number | null
+          student_answers?: Json | null
+          subject: string
+          topic: string
+          total_questions?: number
+          user_id: string
+        }
+        Update: {
+          class?: string
+          correct_answers?: Json
+          created_at?: string
+          id?: string
+          questions?: Json
+          score?: number | null
+          student_answers?: Json | null
+          subject?: string
+          topic?: string
+          total_questions?: number
+          user_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "tests_user_id_fkey"
+            columns: ["user_id"]
+            isOneToOne: false
+            referencedRelation: "users"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      users: {
+        Row: {
+          created_at: string
+          email: string
+          first_name: string
+          id: string
+          last_name: string
+          password_hash: string
+          role: string
+          updated_at: string
+        }
+        Insert: {
+          created_at?: string
+          email: string
+          first_name: string
+          id?: string
+          last_name: string
+          password_hash: string
+          role?: string
+          updated_at?: string
+        }
+        Update: {
+          created_at?: string
+          email?: string
+          first_name?: string
+          id?: string
+          last_name?: string
+          password_hash?: string
+          role?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
