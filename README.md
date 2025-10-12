@@ -1,73 +1,63 @@
-# Welcome to your Lovable project
+AI LearnMate Project
+Project Info
 
-## Project info
+This is the AI LearnMate project, a web application for learning and interactive assessments.
 
-**URL**: https://lovable.dev/projects/2333c459-1840-42a3-9302-33ff71e86b49
+How Can I Edit This Code?
 
-## How can I edit this code?
+There are several ways to edit your application:
 
-There are several ways of editing your application.
+1. Use Your Local IDE
 
-**Use Lovable**
+If you prefer to work locally, follow these steps:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2333c459-1840-42a3-9302-33ff71e86b49) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Step 1: Clone the repository using the Git URL.
+git clone https://github.com/MarutiHaval28/ai-learnmate-27.git
 
 # Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd ai-learnmate-27
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Step 3: Install dependencies.
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server.
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+💡 Changes pushed from your local machine will update the GitHub repository.
 
-**Use GitHub Codespaces**
+2. Edit Files Directly on GitHub
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Navigate to the file you want to change.
 
-## What technologies are used for this project?
+Click the pencil icon to edit.
+
+Commit your changes.
+
+3. Use GitHub Codespaces
+
+On your repo’s main page, click the Code button → Codespaces → New codespace.
+
+Edit files and commit directly within Codespaces.
+
+Technologies Used
 
 This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Vite
 
-## How can I deploy this project?
+TypeScript
 
-Simply open [Lovable](https://lovable.dev/projects/2333c459-1840-42a3-9302-33ff71e86b49) and click on Share -> Publish.
+React
 
-## Can I connect a custom domain to my Lovable project?
+shadcn-ui
 
-Yes, you can!
+Tailwind CSS
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Deployment
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+You can deploy the project using standard Vite/React deployment tools or hosting platforms of your choice.
+
+Custom Domain
+
+You can connect a custom domain by configuring your hosting platform to point to the deployed project.
